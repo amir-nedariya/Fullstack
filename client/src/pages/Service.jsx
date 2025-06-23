@@ -25,11 +25,11 @@ export const Service = () => {
 
               <div className="card-details">
                 <div className="grid grid-two-cols">
-                  <p>{provider}</p>
-                  <p>{price}</p>
+                  <p><b>provider:</b>{provider}</p>
+                  <p><b>price::</b>{price}</p>
                 </div>
                 <h2>{service}</h2>
-                <p>{description}</p>
+                <p><b>description:</b>{description}</p>
               </div>
             </div>
           );

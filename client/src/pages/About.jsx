@@ -17,27 +17,21 @@ export const About = () => {
               </p>
               <h1>Why Choose Us? </h1>
               <p>
-                Expertise: Our team consists of experienced IT professionals who
-                are passionate about staying up-to-date with the latest industry
-                trends.
+                <strong>👨‍💻 Expertise:</strong> I build full-stack web apps using MongoDB,
+                 Express.js, React.js, and Node.js — always up-to-date with latest technologies.
               </p>
               <p>
-                Customization: We understand that every business is unique.
-                Thats why we create solutions that are tailored to your specific
-                needs and goals.
+          <strong>⚙️ Customization:</strong> Every project is tailored to fit your exact business needs.
               </p>
               <p>
-                Customer-Centric Approach: We prioritize your satisfaction and
-                provide top-notch support to address your IT concerns.
+                <strong>🎯 Client-First Approach:</strong> Your satisfaction is my top priority, 
+                with clear communication and support throughout.
               </p>
               <p>
-                Affordability: We offer competitive pricing without compromising
-                on the quality of our services.
+                <strong>💰 Affordable Pricing:</strong> Get the best quality work within your budget.
               </p>
               <p>
-                Reliability: Count on us to be there when you need us. We are
-                committed to ensuring your IT environment is reliable and
-                available 24/7.
+                <strong>🕒 Reliable Delivery:</strong> I ensure timely delivery and full support post-launch.
               </p>
               <div className="btn btn-group">
                 <NavLink to="/contact">

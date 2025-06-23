@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../store/auth";
 import { toast } from "react-toastify";
-
 export const AdminContacts = () => {
   const [contactData, setContactData] = useState([]);
   const { authorizationToken, API } = useAuth();
@@ -60,10 +59,10 @@ export const AdminContacts = () => {
 
             return (
               <div key={index}>
-                <p>{username}</p>
-                <p>{email}</p>
-                <p>{message}</p>
-                <button className="btn" onClick={() => deleteContactById(_id)}>
+                <p><b>Name:</b>{username}</p>
+                <p><b>email:</b>{email}</p>
+                <p><b>message:</b>{message}</p>
+                <button className="btn" onClick={() => deleteContactById(_id)} style={{color:"red"}}>
                   delete
                 </button>
               </div>

@@ -7,20 +7,21 @@ export const Home = () => {
         <section className="section-hero">
           <div className="container grid grid-two-cols">
             <div className="hero-content">
-              <p>We are the World Best IT Company</p>
-              <h1>Welcome to Nedariya Amir</h1>
+              <p>🚀 Full Stack Web Developer</p>
+              <h1>Hi, I'm Nedariya Amir</h1>
               <p>
-                Are you ready to take your business to the next level with
-                cutting-edge IT solutions? Look no further! At Thapa Technical,
-                we specialize in providing innovative IT services and solutions
-                tailored to meet your unique needs.
+                I build scalable and responsive web applications using the MERN
+                stack (MongoDB, Express.js, React, Node.js). From idea to
+                deployment, I deliver complete web solutions for modern
+                businesses.
+
               </p>
               <div className="btn btn-group">
                 <a href="/contact">
-                  <button className="btn">connect now</button>
+                  <button className="btn">Hire Me</button>
                 </a>
-                <a href="/services">
-                  <button className="btn secondary-btn">learn more</button>
+                <a href="/service">
+                  <button className="btn secondary-btn">View Projects</button>
                 </a>
               </div>
             </div>
@@ -55,20 +56,17 @@ export const Home = () => {
           </div>
 
           <div className="hero-content">
-            <p>We are here to help you</p>
-            <h1>Get Started Today</h1>
+            <p>Let's Build Together</p>
+            <h1>Have a Project in Mind?</h1>
             <p>
-              Ready to take the first step towards a more efficient and secure
-              IT infrastructure? Contact us today for a free consultation and
-              lets discuss how Nedariya Amir can help your business thrive in
-              the digital age.
+              Whether it's a portfolio, an eCommerce app, or a custom dashboard, I can turn your idea into reality using the MERN stack.
             </p>
             <div className="btn btn-group">
               <a href="/contact">
-                <button className="btn">connect now</button>
+                <button className="btn">Let's Connect </button>
               </a>
-              <a href="/services">
-                <button className="btn secondary-btn">learn more</button>
+              <a href="/service">
+                <button className="btn secondary-btn">Explore Services</button>
               </a>
             </div>
           </div>
